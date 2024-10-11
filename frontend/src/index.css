@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background: #000000;
+}
+.bet-market {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bet-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bet-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bet-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.bet-details {
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bet-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.bet-yes, .bet-no {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.bet-no {
+  background-color: #f44336;
+}
+
+.bet-amount {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.bet-buy {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}

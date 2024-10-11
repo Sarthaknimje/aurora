@@ -1,0 +1,10 @@
+[package]
+name = "betting_platform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+betting_platform_addr = "0x030d56a866f6a67c05d9eb1c26cef7ccb918478ae0db9e83437e688824a61664"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
